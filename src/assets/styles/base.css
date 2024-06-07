@@ -1,0 +1,215 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  /* header component custom css start */
+
+  .header-bg-container {
+    /* background: radial-gradient(97.57% 210.75% at 0.9% 2.98%, #000000 0%, #292525 100%); */
+    background-color: #000000;
+  }
+
+  /* header component custom css end */
+
+  /* common gradient background color start */
+
+  .common-gradient-background {
+    background: radial-gradient(79.3% 848.37% at 6.05% 13.54%, #8c66fb 0%, #01c2de 100%);
+  }
+
+  .main-footer-border-color {
+    background:
+      linear-gradient(#000000, #000000) padding-box,
+      radial-gradient(79.3% 848.37% at 6.05% 13.54%, #8c66fb 0%, #01c2de 100%) border-box;
+    border-radius: 0px;
+    border-top: 2px solid transparent;
+  }
+
+  /* common gradient background color end */
+
+  /* common gradient background color start */
+
+  .primary-gradient-color {
+    background: -webkit-linear-gradient(180deg, #8c66fb 6.89%, #ffffff 44.98%, #01c2de 73.8%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .secondary-gradient-color {
+    background: -webkit-linear-gradient(180deg, #01c2de 31.36%, #b89fff 63.29%, #8c66fb 93.92%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .third-gradient-color {
+    background: -webkit-linear-gradient(180deg, #8c66fb 93.92%, #01c2de 31.36%);
+
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  /* common gradient background color end */
+
+  /* common gradient border color start */
+
+  .primary-gradient-border-color {
+    background:
+      /* linear-gradient(#09090b, #09090b) padding-box, */
+      linear-gradient(#000000, #000000) padding-box,
+      radial-gradient(79.3% 848.37% at 6.05% 13.54%, #8c66fb 0%, #01c2de 100%) border-box;
+    border-radius: 16px;
+    border: 1px solid transparent;
+  }
+  .primary-gradient-form-border-color {
+    background:
+      /* linear-gradient(#09090b, #09090b) padding-box, */
+      linear-gradient(#111111, #111111) padding-box,
+      radial-gradient(79.3% 848.37% at 6.05% 13.54%, #8c66fb 0%, #01c2de 100%) border-box;
+    border-radius: 16px;
+    border: 1px solid transparent;
+  }
+
+  .primary-gradient-form-border-color-2 {
+    background:
+      /* linear-gradient(#09090b, #09090b) padding-box, */
+      linear-gradient(#000000, #000000) padding-box,
+      radial-gradient(79.3% 848.37% at 6.05% 13.54%, #8c66fb 0%, #01c2de 100%) border-box;
+    border-radius: 16px;
+    border: 1px solid transparent;
+  }
+
+  .primary-gradient-button-border-color {
+    background:
+      linear-gradient(#111111, #111111) padding-box,
+      radial-gradient(79.3% 848.37% at 6.05% 13.54%, #8c66fb 0%, #01c2de 100%) border-box;
+    border-radius: 0px;
+    border: 1px solid transparent;
+  }
+  /* common gradient border color end */
+}
+
+.challenge-card {
+  background:
+    linear-gradient(#000000, #000000) padding-box,
+    radial-gradient(79.3% 848.37% at 6.05% 13.54%, #8c66fb 0%, #01c2de 100%) border-box;
+  border-radius: 16px;
+  border: 2px solid transparent;
+}
+
+/* // border -white class */
+
+.custom-border-white {
+  /* border: 1px solid #eeebd9; */
+  border-color: #c0bdac;
+}
+
+.custom-border-white-2 {
+  border: 2px solid #eeebd9;
+}
+
+.case-study-object-card {
+  background:
+    linear-gradient(#000000 10%, #28282f 90%) padding-box,
+    radial-gradient(79.3% 848.37% at 6.05% 13.54%, #28282f 100%, #28282f 100%) border-box;
+  border-radius: 16px;
+  border: 1px solid transparent;
+}
+
+/* logo hover */
+
+.logo-container {
+  position: relative;
+}
+
+.logo {
+  transition:
+    transform 0.5s ease-in-out,
+    width 0.5s ease-in-out,
+    height 0.5s ease-in-out;
+}
+
+.logo-text {
+  position: absolute;
+  opacity: 0;
+  -webkit-transition:
+    -webkit-transform 0.3s,
+    opacity 0.3s;
+  -moz-transition:
+    -moz-transform 0.3s,
+    opacity 0.3s;
+  transition:
+    transform 0.3s,
+    opacity 0.3s;
+  -webkit-transform: translateY(100%);
+  -moz-transform: translateY(100%);
+  transform: translateY(100%);
+}
+
+.logo-container:hover .logo {
+  transform: scale(0.2);
+  transform: translateX(2em);
+  width: 24px;
+  height: 24px;
+  transition:
+    transform 0.5s ease-in-out,
+    width 0.5s ease-in-out,
+    height 0.5s ease-in-out;
+}
+
+.logo-container:hover .logo-text {
+  bottom: -20px;
+  opacity: 1;
+  -webkit-transform: translateY(0%);
+  -moz-transform: translateY(0%);
+  transform: translateY(0%);
+}
+
+.slide-in-text {
+  animation: slideRight 2s;
+  animation-delay: 1s;
+  animation-iteration-count: 1;
+  transition: all 5s ease-in;
+}
+
+@keyframes slideRight {
+  0% {
+    transform: translateX(-200%);
+  }
+
+  100% {
+    transform: translateX(0%);
+  }
+}
+
+/* css for the business card glow  */
+.glow-on-hover {
+  transition: all 0.3s ease-in-out;
+}
+
+.glow-on-hover:hover {
+  box-shadow: 0 0 10px #ffd700; /* Adjust the color and size as needed */
+}
+
+.slide-in-text {
+  overflow: hidden;
+  white-space: nowrap;
+  position: relative;
+}
+
+.slide-in-text:before {
+  content: attr(data-content);
+  display: inline-block;
+  animation: slideInAnimation 2s;
+  animation-delay: 1s;
+  animation-iteration-count: 1;
+}
+@keyframes slideInAnimation {
+  0% {
+    transform: translateX(-100%);
+  }
+
+  100% {
+    transform: translateX(0%);
+  }
+}

@@ -1,0 +1,30 @@
+<svg width="16" height="17" viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_74_2021)">
+<g clip-path="url(#clip1_74_2021)">
+<g clip-path="url(#clip2_74_2021)">
+<mask id="mask0_74_2021" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="0" y="0" width="16" height="17">
+<path d="M16 0.140015H0V16.14H16V0.140015Z" fill="white"/>
+</mask>
+<g mask="url(#mask0_74_2021)">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M3.26201 12.8761L0.52635 10.139C0.196999 9.80044 0.00869806 9.34915 0 8.87659C0.0244486 8.62012 0.0954436 8.37022 0.209459 8.13937L2.73988 2.8761L3.26201 12.8761Z" fill="#C9C9C9"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M12.6307 3.40457L9.89359 0.667508C9.6559 0.428429 9.15776 0.141158 8.736 0.141158C8.40759 0.129874 8.08176 0.202279 7.78932 0.352027L2.73975 2.87658L12.6307 3.40457Z" fill="white"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M6.52556 16.1411H13.1572V13.298L8.20969 11.7198L3.68506 13.298L6.52556 16.1411Z" fill="white"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M2.74023 11.4049C2.74023 12.254 2.84625 12.4578 3.26658 12.8796L3.69114 13.3041H13.1631L8.52703 8.03806L2.74023 2.87964V11.4049Z" fill="#EDEDED"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M11.1559 2.8761H2.73975L13.1598 13.2963H16.0017V6.77072L12.6307 3.4041C12.1579 2.92853 11.7378 2.8761 11.1559 2.8761Z" fill="#C9C9C9"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M12.6307 3.4041C12.1085 2.88198 11.6811 2.8761 11.0514 2.8761H2.73975L2.84577 2.98236H11.0541C11.367 2.98236 12.1607 2.92994 12.632 3.40692L12.6307 3.4041Z" fill="white"/>
+</g>
+</g>
+</g>
+</g>
+<defs>
+<clipPath id="clip0_74_2021">
+<rect width="16" height="16" fill="white" transform="translate(0 0.140015)"/>
+</clipPath>
+<clipPath id="clip1_74_2021">
+<rect width="16" height="16" fill="white" transform="translate(0 0.140015)"/>
+</clipPath>
+<clipPath id="clip2_74_2021">
+<rect width="16" height="16" fill="white" transform="translate(0 0.140015)"/>
+</clipPath>
+</defs>
+</svg>
